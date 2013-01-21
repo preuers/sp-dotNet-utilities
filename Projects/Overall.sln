@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sp.Idioms", "Sp.Idioms\Sp.Idioms.csproj", "{C05B5A0C-0A93-4B5C-B23D-6D13B3E8E34F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sp.Idioms.Tests.Unit", "Sp.Idioms.Tests.Unit\Sp.Idioms.Tests.Unit.csproj", "{069A2EC8-DAAA-4DC2-96BF-C0C8E19594A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C05B5A0C-0A93-4B5C-B23D-6D13B3E8E34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05B5A0C-0A93-4B5C-B23D-6D13B3E8E34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05B5A0C-0A93-4B5C-B23D-6D13B3E8E34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05B5A0C-0A93-4B5C-B23D-6D13B3E8E34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069A2EC8-DAAA-4DC2-96BF-C0C8E19594A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069A2EC8-DAAA-4DC2-96BF-C0C8E19594A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069A2EC8-DAAA-4DC2-96BF-C0C8E19594A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069A2EC8-DAAA-4DC2-96BF-C0C8E19594A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

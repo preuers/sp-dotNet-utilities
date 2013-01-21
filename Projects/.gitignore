@@ -1,0 +1,10 @@
+# Resharper
+_Resharper*/
+
+# Visulal Studio
+*.suo
+*.DotSettings.user
+
+# Build
+obj/
+bin/
