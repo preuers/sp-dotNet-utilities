@@ -12,6 +12,7 @@
     <AssemblyName>Sp.Idioms.Tests.Unit</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,17 +32,33 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.2\lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="code\OptionTests\CreationTests.cs" />
+    <Compile Include="code\OptionTests\EqualityTests.cs" />
+    <Compile Include="code\OptionTests\RetrievalTests.cs" />
+    <Compile Include="code\OptionTests\TestClass.cs" />
+    <Compile Include="code\OptionTests\TestsBase.cs" />
+    <Compile Include="code\ValueOptionTests\CreationTests.cs" />
+    <Compile Include="code\ValueOptionTests\EqualityTests.cs" />
+    <Compile Include="code\ValueOptionTests\RetrievalTests.cs" />
+    <Compile Include="code\ValueOptionTests\TestsBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sp.Idioms\Sp.Idioms.csproj">
+      <Project>{C05B5A0C-0A93-4B5C-B23D-6D13B3E8E34F}</Project>
+      <Name>Sp.Idioms</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
